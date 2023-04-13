@@ -1,0 +1,24 @@
+@media screen and (max-width: 767px) {
+    #img {
+        display: none !important;
+    }
+    main p {
+        text-align:center;
+        max-width: 1024px;
+        width: 425px;
+    }
+    main {
+        display: flex;
+        justify-self: center;
+        align-items: center;    
+    }
+    main h1 {
+        font-size:60px;
+    }
+    header ul  li{
+        display: none !important;
+    }
+    header {
+        text-align:center
+    }
+}
